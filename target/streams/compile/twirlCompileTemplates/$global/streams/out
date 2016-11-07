@@ -1,4 +1,0 @@
-[0m[[31merror[0m] [0m/Users/iWill/Work/Scala Test 2 - Store App/app/views/productDetails.scala.html:15: Expected '}' but found 'EOF'[0m
-[0m[[31merror[0m] [0m</ul>[0m
-[0m[[31merror[0m] [0m     ^[0m
-[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m
