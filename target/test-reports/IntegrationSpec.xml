@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite hostname="princewills-MBP" name="test.IntegrationSpec" tests="1" errors="0" failures="1" skipped="0" time="2.509">
+        <properties>
+      <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.102-b14"/><property name="user.country.format" value="CA"/><property name="gopherProxySet" value="false"/><property name="org.w3c.css.sac.parser" value="com.steadystate.css.parser.SACParserCSS3"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/iWill/Work/Scala Test 2 - Store App"/><property name="java.runtime.version" value="1.8.0_102-b14"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/ps/7p6012g54n39vbqfs46kdf9c0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/iWill/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="sun.nio.ch.bugLevel" value=""/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.11.6"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/iWill"/><property name="user.timezone" value="America/Toronto"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/iWill/Work/Scala Test 2 - Store App/target/scala-2.10/test-classes:/Users/iWill/Work/Scala Test 2 - Store App/target/scala-2.10/classes:/Users/iWill/.sbt/boot/scala-2.10.4/lib/scala-library.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/twirl-api_2.10/jars/twirl-api_2.10-1.0.2.jar:/Users/iWill/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play_2.10/jars/play_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.3.8.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.3.8.jar:/Users/iWill/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.2-GA.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-iteratees_2.10/jars/play-iteratees_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/org.scala-stm/scala-stm_2.10/jars/scala-stm_2.10-0.7.jar:/Users/iWill/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-json_2.10/jars/play-json_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-functional_2.10/jars/play-functional_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-datacommons_2.10/jars/play-datacommons_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/iWill/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar:/Users/iWill/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar:/Users/iWill/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar:/Users/iWill/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar:/Users/iWill/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar:/Users/iWill/.ivy2/cache/io.netty/netty/bundles/netty-3.9.3.Final.jar:/Users/iWill/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.2.jar:/Users/iWill/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar:/Users/iWill/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.6.jar:/Users/iWill/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar:/Users/iWill/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.1.jar:/Users/iWill/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.1.jar:/Users/iWill/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.3.4.jar:/Users/iWill/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/jars/akka-slf4j_2.10-2.3.4.jar:/Users/iWill/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar:/Users/iWill/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/iWill/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/iWill/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/iWill/.ivy2/cache/com.typesafe.play/play-test_2.10/jars/play-test_2.10-2.3.8.jar:/Users/iWill/.ivy2/cache/junit/junit/jars/junit-4.11.jar:/Users/iWill/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-core_2.10/jars/specs2-core_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-matcher_2.10/jars/specs2-matcher_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-common_2.10/jars/specs2-common_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.6.jar:/Users/iWill/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/bundles/scalaz-concurrent_2.10-7.0.6.jar:/Users/iWill/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.0.6.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-junit_2.10/jars/specs2-junit_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-mock_2.10/jars/specs2-mock_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.mockito/mockito-core/jars/mockito-core-1.9.5.jar:/Users/iWill/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.0.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-matcher-extra_2.10/jars/specs2-matcher-extra_2.10-2.3.12.jar:/Users/iWill/.ivy2/cache/org.specs2/specs2-analysis_2.10/jars/specs2-analysis_2.10-2.3.12.jar:/Users/iWill/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar:/Users/iWill/.ivy2/cache/org.specs2/classycle/jars/classycle-1.4.3.jar:/Users/iWill/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.0-M7.jar:/Users/iWill/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.11-RC1.jar:/Users/iWill/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/Users/iWill/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/iWill/.ivy2/cache/org.fluentlenium/fluentlenium-festassert/jars/fluentlenium-festassert-0.9.2.jar:/Users/iWill/.ivy2/cache/org.fluentlenium/fluentlenium-core/jars/fluentlenium-core-0.9.2.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-java/jars/selenium-java-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-android-driver/jars/selenium-android-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar:/Users/iWill/.ivy2/cache/org.json/json/jars/json-20080701.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.39.0.jar:/Users/iWill/.ivy2/cache/com.google.guava/guava/bundles/guava-15.0.jar:/Users/iWill/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.1.jar:/Users/iWill/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.jar:/Users/iWill/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar:/Users/iWill/.ivy2/cache/org.apache.commons/commons-exec/jars/commons-exec-1.1.jar:/Users/iWill/.ivy2/cache/net.java.dev.jna/jna/jars/jna-3.4.0.jar:/Users/iWill/.ivy2/cache/net.java.dev.jna/platform/jars/platform-3.4.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/jars/selenium-chrome-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-htmlunit-driver/jars/selenium-htmlunit-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/net.sourceforge.htmlunit/htmlunit/jars/htmlunit-2.13.jar:/Users/iWill/.ivy2/cache/xalan/xalan/jars/xalan-2.7.1.jar:/Users/iWill/.ivy2/cache/xalan/serializer/jars/serializer-2.7.1.jar:/Users/iWill/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:/Users/iWill/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.3.1.jar:/Users/iWill/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/jars/htmlunit-core-js-2.13.jar:/Users/iWill/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.19.jar:/Users/iWill/.ivy2/cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.11.jar:/Users/iWill/.ivy2/cache/org.w3c.css/sac/jars/sac-1.3.jar:/Users/iWill/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.2.jar:/Users/iWill/.ivy2/cache/org.eclipse.jetty/jetty-websocket/jars/jetty-websocket-8.1.12.v20130726.jar:/Users/iWill/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-8.1.12.v20130726.jar:/Users/iWill/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-8.1.12.v20130726.jar:/Users/iWill/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-8.1.12.v20130726.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/jars/selenium-ie-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-iphone-driver/jars/selenium-iphone-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/jars/selenium-safari-driver-2.39.0.jar:/Users/iWill/.ivy2/cache/org.webbitserver/webbit/jars/webbit-0.4.14.jar:/Users/iWill/.ivy2/cache/org.seleniumhq.selenium/selenium-support/jars/selenium-support-2.39.0.jar:/Users/iWill/.ivy2/cache/org.easytesting/fest-assert/jars/fest-assert-1.4.jar:/Users/iWill/.ivy2/cache/org.easytesting/fest-util/jars/fest-util-1.1.6.jar:/Users/iWill/Work/Scala Test 2 - Store App/target/web/public/test:/Users/iWill/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/test-agent-0.13.5.jar:/Users/iWill/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/test-interface-1.0.jar"/><property name="user.name" value="iWill"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="sbt.ForkMain 55862"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_102"/><property name="java.ext.dirs" value="/Users/iWill/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+      </properties>
+        <testcase name="Application should::work from within a browser" classname="test.IntegrationSpec" time="2.508">
+        <failure message="'&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;
+      Execution exception
+    &lt;/title&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlFJREFUeNqUU8tOFEEUPVVdNV3dPe8xYRBnjGhmBgKjKzCIiQvBoIaNbly5Z+PSv3Aj7DSiP2B0rwkLGVdGgxITSCRIJGSMEQWZR3eVt5sEFBgTb/dN1yvnnHtPNTPG4PqdHgCMXnPRSZrpSuH8vUJu4DE4rYHDGAZDX62BZttHqTiIayM3gGiXQsgYLEvATaqxU+dy1U13YXapXptpNHY8iwn8KyIAzm1KBdtRZWErpI5lEWTXp5Z/vHpZ3/wyKKwYGGOdAYwR0EZwoezTYApBEIObyELl/aE1/83cp40Pt5mxqCKrE4Ck+mVWKKcI5tA8BLEhRBKJLjez6a7MLq7XZtp+yyOawwCBtkiBVZDKzRk4NN7NQBMYPHiZDFhXY+p9ff7F961vVcnl4R5I2ykJ5XFN7Ab7Gc61VoipNBKF+PDyztu5lfrSLT/wIwCxq0CAGtXHZTzqR2jtwQiXONma6hHpj9sLT7YaPxfTXuZdBGA02Wi7FS48YiTfj+i2NhqtdhP5RC8mh2/Op7y0v6eAcWVLFT8D7kWX5S9mepp+C450MV6aWL1cGnvkxbwHtLW2B9AOkLeUd9KEDuh9fl/7CEj7YH5g+3r/lWfF9In7tPz6T4IIwBJOr1SJyIGQMZQbsh5P9uBq5VJtqHh2mo49pdw5WFoEwKWqWHacaWOjQXWGcifKo6vj5RGS6zykI587XeUIQDqJSmAp+lE4qt19W5P9o8+Lma5DcjsC8JiT607lMVkdqQ0Vyh3lHhmh52tfNy78ajXv0rgYzv8nfwswANuk+7sD/Q0aAAAAAElFTkSuQmCC&quot;/&gt;
+    &lt;style&gt;
+      
+		    html, body, pre {
+		        margin: 0;
+		        padding: 0;
+		        font-family: Monaco, 'Lucida Console', monospace;
+		        background: #ECECEC;
+		    }
+		    h1 {
+		        margin: 0;
+		        background: #A31012;
+		        padding: 20px 45px;
+		        color: #fff;
+		        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+		        border-bottom: 1px solid #690000;
+		        font-size: 28px;
+		    }
+            a {
+                color: #D36D6D;
+            }
+            p#detail {
+		        margin: 0;
+		        padding: 15px 45px;
+		        background: #F5A0A0;
+		        border-top: 4px solid #D36D6D;
+		        color: #730000;
+		        text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+		        font-size: 14px;
+		        border-bottom: 1px solid #BA7A7A;
+		    }
+		    p#detail.pre {
+		    	white-space: pre;
+		    	font-size: 13px;
+		    	overflow: auto;
+		    }
+		    p#detail input {
+		        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#AE1113), to(#A31012));
+                border: 1px solid #790000;
+                padding: 3px 10px;
+                text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+                color: white;
+                border-radius: 3px;
+                cursor: pointer;
+                font-family: Monaco, 'Lucida Console';
+                font-size: 12px;
+                margin: 0 10px;
+                display: inline-block;
+                position: relative;
+                top: -1px;
+		    }
+		    h2 {
+		        margin: 0;
+		        padding: 5px 45px;
+		        font-size: 12px;
+		        background: #333;
+		        color: #fff;
+		        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+		        border-top: 4px solid #2a2a2a;
+		    }
+			pre {
+				margin: 0;
+				border-bottom: 1px solid #DDD;
+				text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+				position: relative;
+				font-size: 12px;
+			}
+			pre span.line {
+			    text-align: right;
+			    display: inline-block;
+			    padding: 5px 5px;
+			    width: 30px;
+			    background: #D6D6D6;
+			    color: #8B8B8B;
+			    text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+			    font-weight: bold;
+			}
+			pre span.code {
+			    padding: 5px 5px;
+			    position: absolute;
+			    right: 0;
+			    left: 40px;
+			}
+			pre:first-child span.code {
+			    border-top: 4px solid #CDCDCD;
+			}
+			pre:first-child span.line {
+			    border-top: 4px solid #B6B6B6;
+			}
+			pre.error span.line {
+			    background: #A31012;
+			    color: #fff;
+			    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+			}
+			pre.error {
+				color: #A31012;
+			}
+			pre.error span.marker {
+				background: #A31012;
+				color: #fff;
+				text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+			}
+		
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body id=&quot;play-error-page&quot;&gt;
+    &lt;h1&gt;
+      Execution exception
+    &lt;/h1&gt;
+    &lt;p id=&quot;detail&quot; class=&quot;pre&quot;&gt;
+      [Exception: Someone snipped the network cable!]
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+' doesn't contain 'Invalid Product'" type="java.lang.Exception">test.IntegrationSpec$$anonfun$1$$anonfun$apply$1$$anonfun$apply$2.apply(IntegrationSpec.scala:29)
+test.IntegrationSpec$$anonfun$1$$anonfun$apply$1$$anonfun$apply$2.apply(IntegrationSpec.scala:17)
+play.api.test.PlayRunners$class.running(Helpers.scala:86)
+play.api.test.Helpers$.running(Helpers.scala:403)
+play.api.test.PlayRunners$class.running(Helpers.scala:74)
+play.api.test.Helpers$.running(Helpers.scala:403)
+test.IntegrationSpec$$anonfun$1$$anonfun$apply$1.apply(IntegrationSpec.scala:17)
+test.IntegrationSpec$$anonfun$1$$anonfun$apply$1.apply(IntegrationSpec.scala:17)</failure>
+      </testcase>
+        <system-out></system-out>
+        <system-err></system-err>
+      </testsuite>

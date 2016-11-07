@@ -1,0 +1,40 @@
+<test.IntegrationSpec-results timestamp="1478492821076"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="4933" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478492821102"><stats time="4943" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478492983630"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="1141" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478492983632"><stats time="1142" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478493420341"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3685" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478493420381"><stats time="3693" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478496004690"><stats time="2836" expectations="1" successes="1" examples="1"><trend><stats time="2836" failures="-1" successes="1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478497679980"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3555" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478497679998"><stats time="3563" expectations="1" failures="1" examples="1"><trend><stats time="3563" failures="1" successes="-1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478498004612"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3658" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478498004641"><stats time="3668" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478498198726"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3737" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478498198737"><stats time="3747" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478499031701"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3623" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478499031719"><stats time="3631" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478499088960"><stats time="3644" expectations="1" successes="1" examples="1"><trend><stats time="3644" failures="-1" successes="1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478499409282"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3538" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478499409299"><stats time="3545" expectations="1" failures="1" examples="1"><trend><stats time="3545" failures="1" successes="-1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478499438147"><stats time="4468" expectations="1" successes="1" examples="1"><trend><stats time="4468" failures="-1" successes="1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478499994120"><stats time="3623" expectations="1" successes="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478500531150"><stats time="3777" expectations="1" successes="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478500702202"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3741" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478500702235"><stats time="3749" expectations="1" failures="1" examples="1"><trend><stats time="3749" failures="1" successes="-1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478500719982"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="3398" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478500719997"><stats time="3404" expectations="1" failures="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478500732320"><stats time="3532" expectations="1" successes="1" examples="1"><trend><stats time="3532" failures="-1" successes="1"></stats></trend></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-stats timestamp="1478500755265"><stats time="3962" expectations="1" successes="1" examples="1"></stats></test.IntegrationSpec-stats>
+<test.IntegrationSpec-results timestamp="1478501176991"><result location="test.IntegrationSpec (IntegrationSpec.scala:16)" id="708906715"><stats time="2508" expectations="1" failures="1" examples="1"></stats></result>
+</test.IntegrationSpec-results>
+<test.IntegrationSpec-stats timestamp="1478501176999"><stats time="2509" expectations="1" failures="1" examples="1"><trend><stats time="2509" failures="1" successes="-1"></stats></trend></stats></test.IntegrationSpec-stats>

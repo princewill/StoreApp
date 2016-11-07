@@ -1,0 +1,14 @@
+@(product: model.ProductInfo, price: Option[model.Price])
+
+@main("Product Details") {
+
+<h2>Product Details: @product.name</h2>
+
+<h3>Price: @price.getOrElse("Price not available")</h3>
+
+<ul>
+    @product.attributes.map { attribute =>
+        <li>@attribute._1 = @attribute._2 </li>
+    }
+</ul>
+}
